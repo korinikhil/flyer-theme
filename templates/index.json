@@ -11,40 +11,9 @@
   "sections": {
     "banner": {
       "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "New season, clean lines",
-            "heading_tag": "h1",
-            "heading_size": "large"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "Everyday pieces made to last."
-          }
-        },
-        "buttons": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_1": "primary",
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_2": "secondary"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "buttons"
-      ],
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-5",
+        "image": "shopify://shop_images/ChatGPT_Image_Sep_9_2026_11_41_38_PM.png",
         "height": "medium",
         "overlay_opacity": 20,
         "content_position": "middle-center"
