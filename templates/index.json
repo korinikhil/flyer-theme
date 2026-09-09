@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "banner": {
@@ -21,12 +30,21 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all"
+            "button_link_1": "shopify://collections/all",
+            "button_style_1": "primary",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_2": "secondary"
           }
         }
       },
-      "block_order": ["heading", "text", "buttons"],
+      "block_order": [
+        "heading",
+        "text",
+        "buttons"
+      ],
       "settings": {
+        "color_scheme": "",
         "height": "medium",
         "overlay_opacity": 20,
         "content_position": "middle-center"
@@ -35,10 +53,14 @@
     "featured": {
       "type": "featured-collection",
       "settings": {
+        "color_scheme": "",
         "heading": "Featured collection",
+        "collection": "frontpage",
         "products_to_show": 8,
         "cols_desktop": "4",
-        "show_view_all": true
+        "show_view_all": true,
+        "padding_top": 48,
+        "padding_bottom": 48
       }
     },
     "image-with-text": {
@@ -60,14 +82,22 @@
           "type": "button",
           "settings": {
             "label": "Our story",
+            "link": "",
             "style": "secondary"
           }
         }
       },
-      "block_order": ["heading", "text", "button"],
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
       "settings": {
+        "color_scheme": "",
         "layout": "image_first",
-        "image_ratio": "adapt"
+        "image_ratio": "adapt",
+        "padding_top": 48,
+        "padding_bottom": 48
       }
     },
     "multicolumn": {
@@ -76,39 +106,65 @@
         "column-1": {
           "type": "column",
           "settings": {
+            "show_image": true,
             "heading": "Free shipping",
-            "text": "<p>On every order over $50, anywhere in the country.</p>"
+            "text": "<p>On every order over $50, anywhere in the country.</p>",
+            "link_label": "",
+            "link": ""
           }
         },
         "column-2": {
           "type": "column",
           "settings": {
+            "show_image": true,
             "heading": "Easy returns",
-            "text": "<p>Changed your mind? Send it back within 30 days.</p>"
+            "text": "<p>Changed your mind? Send it back within 30 days.</p>",
+            "link_label": "",
+            "link": ""
           }
         },
         "column-3": {
           "type": "column",
           "settings": {
+            "show_image": true,
             "heading": "Here to help",
-            "text": "<p>Questions about sizing or care? Just ask.</p>"
+            "text": "<p>Questions about sizing or care? Just ask.</p>",
+            "link_label": "",
+            "link": ""
           }
         }
       },
-      "block_order": ["column-1", "column-2", "column-3"],
+      "block_order": [
+        "column-1",
+        "column-2",
+        "column-3"
+      ],
       "settings": {
+        "color_scheme": "",
         "heading": "Why shop with us",
         "columns": "3",
-        "alignment": "left"
+        "alignment": "left",
+        "padding_top": 48,
+        "padding_bottom": 48
       }
     },
     "newsletter": {
       "type": "newsletter",
       "settings": {
+        "color_scheme": "",
+        "eyebrow": "Newsletter",
         "heading": "Stay in the loop",
-        "text": "<p>New arrivals and occasional news. No spam.</p>"
+        "text": "<p>New arrivals and occasional news. No spam.</p>",
+        "padding_top": 48,
+        "padding_bottom": 48
       }
     }
   },
-  "order": ["banner", "featured", "image-with-text", "multicolumn", "newsletter"]
+  "order": [
+    "banner",
+    "featured",
+    "image-with-text",
+    "multicolumn",
+    "newsletter"
+  ]
 }
